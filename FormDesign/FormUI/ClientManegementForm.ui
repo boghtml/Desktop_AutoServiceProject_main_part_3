@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1323</width>
+    <height>713</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ClientManegementForm</string>
+  </property>
+  <widget class="QLabel" name="label_mainClients">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>10</y>
+     <width>441</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>28</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Потенційні клієнти</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labeClientsOutputChoose">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>140</y>
+     <width>121</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Клієнти:</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidgetForOutputClients">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>250</y>
+     <width>1471</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Ім'я</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Прізвище</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Телефон</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Марка</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Модель</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Рік випуску</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Дата відвідування</string>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Коментар</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Переглянто</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Статус</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QComboBox" name="comboBoxForChosingTypyOfPrintClients">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>140</y>
+     <width>221</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>Усі</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Майбутні</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Минулі</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton_ForAplyPrintingClients">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>140</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #006400; /* Dark green color */
+    color: white; /* Text color */
+    border-radius: 5px; /* Rounded corners, adjust as needed */
+    padding: 5px; /* Padding inside the button */
+    border: none; /* No border */
+}
+
+QPushButton:hover {
+    background-color: #65B969; /* Light green color */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Вивести</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxForChosingClients">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>90</y>
+     <width>481</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>Оберіть клієнта</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButtonForAplyClients">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>130</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Виконано</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonForDenyClients">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>130</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Видалити</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditForSearchingClientsByNumber">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>210</y>
+     <width>171</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Пошук за номером</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_ForMakingOrderOnClient">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>200</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #006400; /* Dark green color */
+    color: white; /* Text color */
+    border-radius: 5px; /* Rounded corners, adjust as needed */
+    padding: 5px; /* Padding inside the button */
+    border: none; /* No border */
+}
+
+QPushButton:hover {
+    background-color: #65B969; /* Light green color */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Оформити</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonForNewChecekdClients">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>200</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Застосувати</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_ForPrintingCountOfNotChecked">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>220</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_ForNewClients">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>220</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Нових клієнтів</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_ForUpdateDataAboutClient">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>200</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+        background-color: #0066cc; /* Dark blue color */
+        color: white; /* Text color */
+        border-radius: 5px; /* Rounded corners, adjust as needed */
+        padding: 5px; /* Padding inside the button */
+        border: none; /* No border */
+    }
+    
+    QPushButton:hover {
+        background-color: #65a9d7; /* Light blue color */
+    }
+</string>
+   </property>
+   <property name="text">
+    <string>Оновити</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_ForChangingStatus">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>200</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Змінити</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

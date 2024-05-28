@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1019</width>
+    <height>575</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DetailedServiceForm</string>
+  </property>
+  <widget class="QComboBox" name="comboBoxForSortOrders">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>91</y>
+     <width>211</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidgetForOutputOrders">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>140</y>
+     <width>661</width>
+     <height>390</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Авто</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Послги</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Ціна</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Дата</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Коментар</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="labelDataForOutput">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>91</y>
+     <width>111</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Вивести за:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxForDataOutputOrders">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>91</y>
+     <width>221</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelDateInput">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>190</y>
+     <width>251</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Замовлення для видаленя:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonForAplyDataQuery">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>80</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <underline>false</underline>
+     <strikeout>false</strikeout>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #4CAF50; /* Зелений колір */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px; /* Округлені кути */
+}
+QPushButton:hover {
+    background-color: #45a049; /* Зелений колір при наведенні */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Вивести</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_main_auto">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>10</y>
+     <width>431</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Робота із замовленнями</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonForDeleteOrder">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>280</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <underline>false</underline>
+     <strikeout>false</strikeout>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #f44336; /* Червоний колір */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px; /* Округлені кути */
+}
+QPushButton:hover {
+    background-color: #d32f2f; /* Червоний колір при наведенні */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Видалити замовлення</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_ForAplySort">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>80</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <underline>false</underline>
+     <strikeout>false</strikeout>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #9E9E9E; /* Сірий колір */
+    border: none;
+    color: white; /* Білий колір тексту для кращої видимості */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px; /* Округлені кути */
+}
+QPushButton:hover {
+    background-color: #757575; /* Сірий колір при наведенні */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Посортувати</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxChosingOrderDelete">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>230</y>
+     <width>271</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

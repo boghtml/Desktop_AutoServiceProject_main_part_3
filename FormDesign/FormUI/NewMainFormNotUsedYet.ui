@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1166</width>
+    <height>427</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainForm</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="pushButton_EmpoyeeReporting">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>360</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: rgb(255, 80, 32); /* оранжевий */
+    color: white; /* білий */
+    font: 12pt &quot;MS Shell Dlg 2&quot;;
+    border: 2px solid black; /* ободка */
+    padding: 10px 20px; /* відступи для тексту */
+    transition: background-color 0.3s, color 0.3s; /* додаємо анімацію */
+}
+
+QPushButton:hover {
+    background-color: white; /* змінюємо фоновий колір при наведенні */
+    color: rgb(255, 80, 32); /* змінюємо колір тексту при наведенні */
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 140, 0); /* змінюємо фоновий колір при натисканні */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Звітність парцівників</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>10</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Вихід з акаута:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonForWorkWithWorkers">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>140</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: rgb(255, 80, 32); /* оранжевий */
+    color: white; /* білий */
+    font: 12pt &quot;MS Shell Dlg 2&quot;;
+    border: 2px solid orange; /* ободка */
+    padding: 10px 20px; /* відступи для тексту */
+    transition: background-color 0.3s, color 0.3s; /* додаємо анімацію */
+}
+
+QPushButton:hover {
+    background-color: white; /* змінюємо фоновий колір при наведенні */
+    color: rgb(255, 80, 32); /* змінюємо колір тексту при наведенні */
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 140, 0); /* змінюємо фоновий колір при натисканні */
+}</string>
+   </property>
+   <property name="text">
+    <string>Робота з працівниками</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_main">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>30</y>
+     <width>551</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>28</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string>Головне меню програми</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonServiceAnalytics">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>360</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: rgb(255, 80, 32); /* оранжевий */
+    color: white; /* білий */
+    font: 12pt &quot;MS Shell Dlg 2&quot;;
+    border: 2px solid black; /* ободка */
+    padding: 10px 20px; /* відступи для тексту */
+    transition: background-color 0.3s, color 0.3s; /* додаємо анімацію */
+}
+
+QPushButton:hover {
+    background-color: white; /* змінюємо фоновий колір при наведенні */
+    color: rgb(255, 80, 32); /* змінюємо колір тексту при наведенні */
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 140, 0); /* змінюємо фоновий колір при натисканні */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Аналітика автосервісу</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonForWorkWithAuto">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: rgb(255, 80, 32); /* оранжевий */
+    color: white; /* білий */
+    font: 12pt &quot;MS Shell Dlg 2&quot;;
+    border: 2px solid orange; /* ободка */
+    padding: 10px 20px; /* відступи для тексту */
+    transition: background-color 0.3s, color 0.3s; /* додаємо анімацію */
+}
+
+QPushButton:hover {
+    background-color: white; /* змінюємо фоновий колір при наведенні */
+    color: rgb(255, 80, 32); /* змінюємо колір тексту при наведенні */
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 140, 0); /* змінюємо фоновий колір при натисканні */
+}</string>
+   </property>
+   <property name="text">
+    <string>Робота з автомобілями</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_PotentialClients">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>230</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: rgb(255, 80, 32); /* оранжевий */
+    color: white; /* білий */
+    font: 12pt &quot;MS Shell Dlg 2&quot;;
+    border: 2px solid orange; /* ободка */
+    padding: 10px 20px; /* відступи для тексту */
+    transition: background-color 0.3s, color 0.3s; /* додаємо анімацію */
+}
+
+QPushButton:hover {
+    background-color: white; /* змінюємо фоновий колір при наведенні */
+    color: rgb(255, 80, 32); /* змінюємо колір тексту при наведенні */
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 140, 0); /* змінюємо фоновий колір при натисканні */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Клієнти</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonForOrderCreating">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>140</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: rgb(255, 80, 32); /* оранжевий */
+    color: white; /* білий */
+    font: 12pt &quot;MS Shell Dlg 2&quot;;
+    border: 2px solid orange; /* ободка */
+    padding: 10px 20px; /* відступи для тексту */
+    transition: background-color 0.3s, color 0.3s; /* додаємо анімацію */
+}
+
+QPushButton:hover {
+    background-color: white; /* змінюємо фоновий колір при наведенні */
+    color: rgb(255, 80, 32); /* змінюємо колір тексту при наведенні */
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 140, 0); /* змінюємо фоновий колір при натисканні */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Створення замовлення</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonServiseAdd">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>360</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: rgb(255, 80, 32); /* оранжевий */
+    color: white; /* білий */
+    font: 12pt &quot;MS Shell Dlg 2&quot;;
+    border: 2px solid black; /* ободка */
+    padding: 10px 20px; /* відступи для тексту */
+    transition: background-color 0.3s, color 0.3s; /* додаємо анімацію */
+}
+
+QPushButton:hover {
+    background-color: white; /* змінюємо фоновий колір при наведенні */
+    color: rgb(255, 80, 32); /* змінюємо колір тексту при наведенні */
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 140, 0); /* змінюємо фоновий колір при натисканні */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Робота з послугами</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_ForPrintingCountOfNewClients">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>200</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="logoutButton">
+   <property name="geometry">
+    <rect>
+     <x>1050</x>
+     <y>40</y>
+     <width>80</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonForOrderHistory">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>140</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: rgb(255, 80, 32); /* оранжевий */
+    color: white; /* білий */
+    font: 12pt &quot;MS Shell Dlg 2&quot;;
+    border: 2px solid orange; /* ободка */
+    padding: 10px 20px; /* відступи для тексту */
+    transition: background-color 0.3s, color 0.3s; /* додаємо анімацію */
+}
+
+QPushButton:hover {
+    background-color: white; /* змінюємо фоновий колір при наведенні */
+    color: rgb(255, 80, 32); /* змінюємо колір тексту при наведенні */
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 140, 0); /* змінюємо фоновий колір при натисканні */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Виведення історії авто</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_ForNewClients">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>200</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Нових клієнтів</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>300</y>
+     <width>1181</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_main_2">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>310</y>
+     <width>281</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+</string>
+   </property>
+   <property name="text">
+    <string>Можливості admin</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1171</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(70, 70, 70);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_ForShowNonAccessAdmin">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>360</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+</string>
+   </property>
+   <property name="text">
+    <string>Недоступно</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <zorder>graphicsView_2</zorder>
+  <zorder>graphicsView</zorder>
+  <zorder>pushButton_EmpoyeeReporting</zorder>
+  <zorder>label</zorder>
+  <zorder>pushButtonForWorkWithWorkers</zorder>
+  <zorder>label_main</zorder>
+  <zorder>pushButtonServiceAnalytics</zorder>
+  <zorder>pushButtonForWorkWithAuto</zorder>
+  <zorder>pushButton_PotentialClients</zorder>
+  <zorder>pushButtonForOrderCreating</zorder>
+  <zorder>pushButtonServiseAdd</zorder>
+  <zorder>label_ForPrintingCountOfNewClients</zorder>
+  <zorder>logoutButton</zorder>
+  <zorder>pushButtonForOrderHistory</zorder>
+  <zorder>label_ForNewClients</zorder>
+  <zorder>label_main_2</zorder>
+  <zorder>label_ForShowNonAccessAdmin</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

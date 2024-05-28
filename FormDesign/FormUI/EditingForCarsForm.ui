@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>457</width>
+    <height>281</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Editing</string>
+  </property>
+  <widget class="QLabel" name="label_For_Editing_auto">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>10</y>
+     <width>311</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>22</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Редагування Авто</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMarkIput">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>80</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Марка:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditForYearCreatInput">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>170</y>
+     <width>171</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditForMarkInput">
+   <property name="geometry">
+    <rect>
+     <x>184</x>
+     <y>84</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditForModelInput">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>130</y>
+     <width>171</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labeForModelIput">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>129</y>
+     <width>91</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Модель:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelYearInput">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>170</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Рік випуску:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonForDenyEditingAuto">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>220</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #8B0000; /* Темно-червоний колір */
+    color: white; /* Колір тексту */
+    border-radius: 5px; /* Закруглені кути, можна налаштувати за потреби */
+    padding: 5px; /* Відступ всередині кнопки */
+    border: none; /* Без рамки */
+}
+
+QPushButton:hover {
+    background-color: #FF6347; /* Світло-червоний колір */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Скасувати</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_ForAplyEditingAuto">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>220</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #006400; /* Dark green color */
+    color: white; /* Text color */
+    border-radius: 5px; /* Rounded corners, adjust as needed */
+    padding: 5px; /* Padding inside the button */
+    border: none; /* No border */
+}
+
+QPushButton:hover {
+    background-color: #65B969; /* Light green color */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Підтвердити</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

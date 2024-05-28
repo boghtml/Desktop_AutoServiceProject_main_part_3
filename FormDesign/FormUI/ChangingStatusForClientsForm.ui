@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>552</width>
+    <height>384</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ChangingStatusFormClient</string>
+  </property>
+  <widget class="QLabel" name="label_TelephonePrint">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>160</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Телефон:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_ForTelephonePrint">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>160</y>
+     <width>171</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdi_ForPositionPrint">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>120</y>
+     <width>171</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labe_ForPositionPrint">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>120</y>
+     <width>111</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Прізвище:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_For_Editing_Employee">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>10</y>
+     <width>441</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>22</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Зміна статуса замовлення</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_ForDenyEditingStatus">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>310</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #8B0000; /* Темно-червоний колір */
+    color: white; /* Колір тексту */
+    border-radius: 5px; /* Закруглені кути, можна налаштувати за потреби */
+    padding: 5px; /* Відступ всередині кнопки */
+    border: none; /* Без рамки */
+}
+
+QPushButton:hover {
+    background-color: #FF6347; /* Світло-червоний колір */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Скасувати</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_ForNamePrint">
+   <property name="geometry">
+    <rect>
+     <x>234</x>
+     <y>74</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_ForAplyEditingStatus">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>310</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #006400; /* Dark green color */
+    color: white; /* Text color */
+    border-radius: 5px; /* Rounded corners, adjust as needed */
+    padding: 5px; /* Padding inside the button */
+    border: none; /* No border */
+}
+
+QPushButton:hover {
+    background-color: #65B969; /* Light green color */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Підтвердити</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_NamePrint">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>70</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Ім'я:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_DataMeatingPrint">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>200</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Запланована дата:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_ForDataPrint">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>200</y>
+     <width>171</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_ForChangingStatus">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>250</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Статус:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_ForChanging">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>251</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>Очікується</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Підтверджено</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Виконується</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Завершено</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

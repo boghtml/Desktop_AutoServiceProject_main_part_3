@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>494</width>
+    <height>296</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Editing</string>
+  </property>
+  <widget class="QLineEdit" name="lineEditForIncomeInput">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>180</y>
+     <width>171</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelNameInput">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>90</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Ім'я:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelIncomeIInput">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>180</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Дохід:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditForPositionInput">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>140</y>
+     <width>171</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonForDenyEditingEmpoyee">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>230</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #8B0000; /* Темно-червоний колір */
+    color: white; /* Колір тексту */
+    border-radius: 5px; /* Закруглені кути, можна налаштувати за потреби */
+    padding: 5px; /* Відступ всередині кнопки */
+    border: none; /* Без рамки */
+}
+
+QPushButton:hover {
+    background-color: #FF6347; /* Світло-червоний колір */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Скасувати</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditForNameInput">
+   <property name="geometry">
+    <rect>
+     <x>204</x>
+     <y>94</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_ForAplyEditingEmployee">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>230</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #006400; /* Dark green color */
+    color: white; /* Text color */
+    border-radius: 5px; /* Rounded corners, adjust as needed */
+    padding: 5px; /* Padding inside the button */
+    border: none; /* No border */
+}
+
+QPushButton:hover {
+    background-color: #65B969; /* Light green color */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Підтвердити</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labeForPositionInput">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>139</y>
+     <width>101</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Птосада:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_For_Editing_Employee">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>441</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>22</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Редагування Працівників</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
