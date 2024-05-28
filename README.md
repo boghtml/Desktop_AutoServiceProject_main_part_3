@@ -32,17 +32,18 @@ The main application is an integral part of this system, created to facilitate t
 ### Additional Features:
 - **Data Synchronization**: Ensures that data is consistent and available across all components of the system.
 - **User-Friendly Interface**: Easy-to-use interface designed for efficiency and productivity.
+- **Data Science Integration**: Utilizes Data Science techniques for advanced analytics and reporting, providing insights into service performance, customer satisfaction, and operational efficiency.
 
 ## Installation
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/boghtml/MainApplication_AutoServiceProject_part_3.git
+    git clone https://github.com/boghtml/Desktop_AutoServiceProject_main_part_3.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd MainApplication_AutoServiceProject_part_3
+    cd Desktop_AutoServiceProject_main_part_3
     ```
 
 3. Install the required dependencies:
@@ -68,7 +69,7 @@ The main application is an integral part of this system, created to facilitate t
 
 ## Functionality
 
-To view the functionality of the website, open the file: **"Explanation_to_my_work (courses-project).docx"** and go to page **62** and read to **81**
+To view the functionality of the application, open the file: **"Пояснювальна записка(Рибак Андрій Вікторович)_захищена.docx"** and go to page **62** and read to **81**.
 
 ### Appointment Management
 - **Book Appointment**: Staff can book appointments by entering customer details, car information, and selecting the desired date and time.
@@ -97,22 +98,22 @@ To view the functionality of the website, open the file: **"Explanation_to_my_wo
 ## Screenshots
 
 ### Main Dashboard
-![Main Dashboard](https://github.com/boghtml/MainApplication_AutoServiceProject_part_3/assets/main_dashboard.png)
+![Main Dashboard](https://github.com/boghtml/Desktop_AutoServiceProject_main_part_3/assets/main_dashboard.png)
 
 ### Appointment Management
-![Appointment Management](https://github.com/boghtml/MainApplication_AutoServiceProject_part_3/assets/appointment_management.png)
+![Appointment Management](https://github.com/boghtml/Desktop_AutoServiceProject_main_part_3/assets/appointment_management.png)
 
 ### Service Management
-![Service Management](https://github.com/boghtml/MainApplication_AutoServiceProject_part_3/assets/service_management.png)
+![Service Management](https://github.com/boghtml/Desktop_AutoServiceProject_main_part_3/assets/service_management.png)
 
 ### Car Records Management
-![Car Records Management](https://github.com/boghtml/MainApplication_AutoServiceProject_part_3/assets/car_records_management.png)
+![Car Records Management](https://github.com/boghtml/Desktop_AutoServiceProject_main_part_3/assets/car_records_management.png)
 
 ### Employee Management
-![Employee Management](https://github.com/boghtml/MainApplication_AutoServiceProject_part_3/assets/employee_management.png)
+![Employee Management](https://github.com/boghtml/Desktop_AutoServiceProject_main_part_3/assets/employee_management.png)
 
 ### Analytics and Reporting
-![Analytics and Reporting](https://github.com/boghtml/MainApplication_AutoServiceProject_part_3/assets/analytics_reporting.png)
+![Analytics and Reporting](https://github.com/boghtml/Desktop_AutoServiceProject_main_part_3/assets/analytics_reporting.png)
 
 ## Advantages
 
@@ -120,6 +121,7 @@ To view the functionality of the website, open the file: **"Explanation_to_my_wo
 - **Data Integration**: Ensures seamless integration and data consistency across all components.
 - **User-Friendly**: Intuitive and easy-to-use interface for efficient management.
 - **Scalability**: Can easily scale with the growing needs of the business.
+- **Advanced Analytics**: Leverages Data Science for detailed insights and reporting.
 
 ## Conclusion
 
