@@ -69,7 +69,7 @@ The main application is an integral part of this system, created to facilitate t
 
 ## Functionality
 
-To view the functionality of the application, open the file: **"Пояснювальна записка(Рибак Андрій Вікторович)_захищена.docx"** and go to page **62** and read to **81**.
+To view the functionality of the application, open the file: **"Explanation_note_of_my_work(courses-project).docx"** and go to page **62** and read to **81**.
 
 ### Appointment Management
 - **Book Appointment**: Staff can book appointments by entering customer details, car information, and selecting the desired date and time.
