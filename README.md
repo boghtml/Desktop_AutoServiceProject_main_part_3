@@ -1,3 +1,7 @@
+## Functionality
+
+To view the functionality of the application, open the file: **"Explanation_note_of_my_work(courses-project).docx"** and go to page **62** and read to **81**.
+
 # Car Service System - Main Application
 
 This repository contains the code for the main application of the Car Service System, a comprehensive solution designed to automate car service operations.
@@ -82,10 +86,6 @@ The main application is an integral part of this system, created to facilitate t
     ```bash
     python main.py
     ```
-
-## Functionality
-
-To view the functionality of the application, open the file: **"Explanation_note_of_my_work(courses-project).docx"** and go to page **62** and read to **81**.
 
 ## Advantages
 
